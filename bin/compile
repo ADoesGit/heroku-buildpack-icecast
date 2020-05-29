@@ -1,1 +1,3 @@
+mkdir -p $BUILD_DIR/.heroku/bin
+mv ./icecast2 $BUILD_DIR/.heroku/bin
 exit 0
