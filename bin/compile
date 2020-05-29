@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-AWESOME_VM_BINARY="http://downloads.xiph.org/releases/icecast/icecast-2.4.4.tar.gz"
+AWESOME_VM_BINARY="http://download.opensuse.org/repositories/multimedia:/xiph/Debian_10/icecast2_2.4.4-1.debian.tar.gz"
 AWESOME_VM_VENDOR="vendor/icecast"
 
 # vendor awesome-vm

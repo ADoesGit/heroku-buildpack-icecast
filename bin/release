@@ -3,7 +3,6 @@
 cat << EOF
 ---
 config_vars:
-  PATH: "vendor/icecast/bin:/usr/bin:/bin"
 default_process_types:
-  web: vendor/icecast/bin/icecast -c config/icecast.xml
+  web: .heroku/vendor/icecast/bin/debian/icecast2.1 -c ~config/icecast.xml
 EOF
