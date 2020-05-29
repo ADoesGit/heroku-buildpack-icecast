@@ -4,5 +4,5 @@ cat << EOF
 ---
 config_vars:
 default_process_types:
-  web: .heroku/vendor/icecast/bin/debian/icecast2.1 -c ~config/icecast.xml
+  web: ~/vendor/icecast/debian/icecast2.1 -c ~config/icecast.xml
 EOF
