@@ -1,5 +1,4 @@
 mkdir -p $1/.heroku/bin
-mv /bin/icecast2 $1/.heroku/bin
-ls
+mv ./bin/icecast2 $1/.heroku/bin
 chmod +x $BUILD_DIR/.heroku/bin/icecast2
 exit 0
