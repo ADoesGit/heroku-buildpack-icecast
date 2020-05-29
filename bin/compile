@@ -5,7 +5,8 @@ AWESOME_VM_VENDOR="vendor/icecast"
 
 # vendor awesome-vm
 mkdir -p $1/$AWESOME_VM_VENDOR
-curl $AWESOME_VM_BINARY -o - | tar -xz 
+curl $AWESOME_VM_BINARY -o -
+tar -xz ./icecast-2.4.4.tar.gz
 
 indent() {
   sed -u 's/^/       /'
