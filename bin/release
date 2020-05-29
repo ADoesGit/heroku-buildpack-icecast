@@ -1,8 +1,0 @@
-#!/bin/sh -e
-
-cat << EOF
----
-config_vars:
-default_process_types:
-  worker: chmod +x ~/vendor/icecast/debian/icecast2.1 & ~/vendor/icecast/debian/icecast2.1 -c ~config/icecast.xml
-EOF
