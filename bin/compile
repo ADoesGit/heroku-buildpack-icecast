@@ -15,7 +15,7 @@ echo "-----> Found an icecast.xml file"
 
 if [ ! -s $1/config/icecast.xml ]; then
   echo "icecast.xml was empty"
-  echo $config > ~/config/icecast.xml
+  echo $config > $1/config/icecast.xml
   exit 0
 else
   exit 0
