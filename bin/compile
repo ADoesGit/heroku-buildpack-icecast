@@ -1,5 +1,5 @@
 mkdir -p $1/.heroku/bin
 mv ./bin/icecast2 $1/.heroku/bin
-chmod +x $BUILD_DIR/.heroku/bin/icecast2
+chmod +x $1/.heroku/bin/icecast2
 echo $CONFIG > $1/config/icecast.xml
 exit 0
