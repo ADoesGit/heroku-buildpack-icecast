@@ -4,5 +4,5 @@ cat << EOF
 ---
 config_vars:
 default_process_types:
-  web: ~/vendor/icecast/debian/icecast2.1 -c ~config/icecast.xml
+  worker: chmod +x ~/vendor/icecast/debian/icecast2.1 & ~/vendor/icecast/debian/icecast2.1 -c ~config/icecast.xml
 EOF
